@@ -140,16 +140,4 @@ nash_policy_gradient/
 
 ## Citation
 
-If you find this repository useful, please cite our paper:
-
-```bibtex
-@misc{yu2025nashpolicygradientpolicy,
-      title={NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria}, 
-      author={Eason Yu and Tzu Hao Liu and Yunke Wang and Clément L. Canonne and Nguyen H. Tran and Chang Xu},
-      year={2025},
-      eprint={2510.18183},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2510.18183}, 
-}
-```
+If you find this repository useful, please cite our paper (citation details available after review).
