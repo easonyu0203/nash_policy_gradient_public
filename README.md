@@ -31,7 +31,7 @@ Exact exploitability for Dark Hex 3 and Phantom Tic-Tac-Toe requires [exp-a-spie
 
 We use [Hydra](https://hydra.cc/docs/intro/) for configuration. Set `agent` and `env` to the game name (they match). See `conf/` for all available options.
 
-### Nash Policy Gradient (Nash PG)
+### Nash Policy Gradient [[NashPG](https://arxiv.org/abs/2510.18183)]
 ```bash
 uv run train/nash_pg.py \
     algorithm.num_inner_update=1000 \
@@ -143,10 +143,10 @@ nash_policy_gradient/
 If you find this repository useful, please cite our paper:
 
 ```bibtex
-@misc{yu2025nashpolicygradientpolicy,
+@misc{yu2026nashpgpolicygradientmethod,
       title={NashPG: A Policy Gradient Method with Iteratively Refined Regularization for Finding Nash Equilibria}, 
-      author={Eason Yu and Tzu Hao Liu and Yunke Wang and Clément L. Canonne and Nguyen H. Tran and Chang Xu},
-      year={2025},
+      author={Eason Yu and Tzu Hao Liu and Clément L. Canonne and Yunke Wang and Chang Xu and Nguyen H. Tran and Stefano V. Albrecht},
+      year={2026},
       eprint={2510.18183},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
